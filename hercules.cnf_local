@@ -1,6 +1,7 @@
 #hercules configuration file. Parameters set up for a single core P4 w/1.5GB RAM. 
 #Change checklist for other systems:
 #MAINSIZE, NUMCPU, TZOFFSET, local paths.
+#Read http://www.hercules-390.eu/hercconf.html for more info on this file.
 
 #CPU serial number
 #Doesn't matter, but FABADA is always cool
