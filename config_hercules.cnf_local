@@ -35,7 +35,6 @@ PANRATE FAST
 #Architecture mode: S/370, ESA/390 or ESAME
 ARCHMODE ESAME
 
-
 #Allow OS/390 and Z/OS systems to run
 PGMPRDOS LICENSED
 

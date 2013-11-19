@@ -11,9 +11,10 @@ Filename structure:
   type_filename_info
     "type" is the type of file (config, custom, JCL, COBOL, misc)
     "filename" is the actual filename. For mainframe code this will include the dataset name and the member of the dataset [random.data.set_member]
-    regular files will have the actual extension after the filename (i.e. "config_hercules.cnf)
+    regular files will have the actual extension after the filename (e.g. "config_hercules.cnf)
     "info" is a clarifying keyword used in some files (e.g. _local and _public to identify two similar configuration files used in different systems)
     
     
 Please note that (AFAIK) you can't run git on z/OS and upload code from there. All code has been copypasted to a plain text file from working datasets and could contain typos, mistakes or non-working fragments of code. 
+
 Don't run anything in this repo without understanding what it does first and how it does it (That is the whole point), and double-check for mistakes and things you should modify in the program to make it work (parameters, names, members, devices, etc)
