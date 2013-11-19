@@ -1,0 +1,15 @@
+//TESTJCL JOB TEST,ACHI,CLASS=A,MSGCLASS=A,MSGLEVEL=(1,1),REGION=256K, 
+// NOTIFY=&SYSUID 
+//*
+//* THIS WRITES "TEST OUTPUT" ON THE SYSTEM LOG
+//*
+//PASO1 EXEC PGM=IEBGENER 
+//SYSUT1 DD DATA,DLM='$$' 
+  TEST OUTPUT 
+$$ 
+//SYSUT2 DD SYSOUT=A 
+//SYSPRINT DD SYSOUT=A 
+//SYSIN DD DUMMY 
+// 
+                                                                       
+                                                                       
