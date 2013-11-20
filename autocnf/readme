@@ -1,0 +1,14 @@
+ Auto CNF creator (WIP)
+ 
+ This python script automatically installs and configures hercules. It can work in full-auto or interactive mode. 
+ 
+ 
+ Working on:
+ 
+  -implement getram()
+  -implement getcpu()
+  -implement getzone()
+  -implement getpath()
+  -allow multi-distro installation
+  -implement create()
+  
