@@ -1,14 +1,23 @@
  Auto CNF creator (WIP)
  
- This python script automatically installs and configures hercules. It can work in full-auto or interactive mode. 
+ This python script automatically installs and configures hercules.
  
  
- Working on:
+TO-DO list:
  
   -implement getram()
-  -implement getcpu()
-  -implement getzone()
+    getram gets the available system memory
   -implement getpath()
+    getpath looks for the z/OS files and saves the path to the folder, to be dumped later in the cnf file
   -allow multi-distro installation
+    I don't even
   -implement create()
-  
+    creates the actual file
+  -write a decent help section
+
+Notes/bugs/stuff that doesn't work: 
+
+-getzone() gets the timezone, but only in a n or -n format (n being hours) instead of the +hhmm / -hhmm format required by Hercules.
+-cpu_count theoretically returns the numbers of CPUs in the system, but I can't test this.
+-the help lines are outdated and useless. Ignore the help menu.
+-only the first option in the menu and the exit one (0) are functional
